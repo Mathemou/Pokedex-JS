@@ -5,17 +5,32 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Pokedex</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+
     <link rel='icon' href='./favicons/favicon-16x16.png'>
     <link rel="stylesheet" href="./css/style.css">
-    <script src='main.js'></script>
+    
+    <script defer src='./js/script.js'></script>
 </head>
 <body>
     <main>
-        <img src="./images/pokebola3d.png" alt="pokemon" class="pokemonImage">
+        <img src="#" alt="" class="pokemonImage">
         <h1 class="pokemonData">
-            <span class="pokemonNumber">6 -</span>
-            <span class="pokemonName">pokeball</span>
+            <span class="pokemonNumber"></span>
+            <span class="pokemonName"></span>
     </h1>
+    <form class="form">
+        <input 
+        type="search"
+        class="inputSearch"
+        placeholder="Nome ou número"
+        required
+        >
+    </form>
+
+    <div class="buttons">
+        <button class="button btn-ant">Anterior <<</button>
+        <button class="button btn-prox">Proximo >></button>
+    </div>
         <img src="./images/pokedex.png" alt="pokedex" class="pokedex">
     </main>
 </body>
